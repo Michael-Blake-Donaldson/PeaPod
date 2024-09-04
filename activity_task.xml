@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/taskButton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Do the Dishes"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/taskButton2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Take out the Trash"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/taskButton3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Walk the Dog"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/customTaskEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a custom task"
+        android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/addCustomTaskButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Task"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/statsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Stats"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/viewTasksButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Completed Tasks"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/viewProfileButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Profile"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
